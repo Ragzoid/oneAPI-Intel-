@@ -43,8 +43,11 @@ Utilizing a **CNN with oneDNN** for attendance management brings accuracy, real-
 
 The model architecture is given below,
 <img width="670" alt="Screenshot 2023-05-17 at 10 55 21 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/160c7b1a-373b-4dfd-b200-60df89d27e28">
+
 This model recognizes the face and adds the attendance status of the individual to the excel sheet. A sample output of the model is shown below.
+
 ![Output2](https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/3683836b-37ce-41ac-9ee5-3fe30ccf5ac3)
+
 further we are currently working on incoprating emotion detection to the project and the architecture diagram of the proposed model under implementation is shared below.
 
 <img width="414" alt="Screenshot 2023-05-17 at 11 03 14 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/72336b88-9cc2-4ca0-bf22-e1b73aaddfe0">
