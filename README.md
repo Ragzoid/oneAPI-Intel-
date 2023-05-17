@@ -1,2 +1,3 @@
-# oneAPI-Intel-
-Intel OneAPI serves as a comprehensive solution for heterogeneous application development, offering developers the flexibility, performance, and ease of use required to take full advantage of the increasingly diverse computing landscape
+# oneAPI Intel® 
+Intel OneAPI serves as a comprehensive solution for heterogeneous application development, offering developers the flexibility, performance, and ease of use required to take full advantage of the increasingly diverse computing landscape. It enables developers to write high-performance code that can seamlessly target multiple hardware architectures, accelerating the pace of innovation and unlocking new possibilities in the field of computing.
+OneAPI offers a unified programming model that allows developers to write code that can seamlessly target various computing devices, including CPUs, GPUs, FPGAs, and other accelerators. This eliminates the need for separate code bases for different hardware architectures, simplifying the development process and reducing maintenance efforts.
