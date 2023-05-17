@@ -26,9 +26,11 @@ To develop a heart disease prediction model, these algorithms are trained on lab
 2. **Decsion Tree**: Decsion tree is an ensemble learning algorithm, It can handle complex relationships between variables and can provide feature importance rankings, helping identify which factors contribute most to heart disease risk.
 
 In this project we have used **sciket learn extended by Intel to split the test and train data.
-<img width="992" alt="Screenshot 2023-05-17 at 10 04 53 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/0045c748-2e84-462f-a6fc-b672b9d717ad">
+<img width="992" alt="Screenshot 2023-05-17 at 10 04 53 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/3fa9fe7c-b7f6-47da-90e7-5c1db90cceb1">
+
 Further, we have used Logistic Regresession and Decision Tree models to test the accuracy of the models.
-<img width="995" alt="Screenshot 2023-05-17 at 10 07 05 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/395ea91b-9667-4409-929a-0c3e97b55d4f">
+<img width="995" alt="Screenshot 2023-05-17 at 10 07 05 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/f1552766-45c7-435b-8e72-00768efdf5be">
+
 We provided a comparitive analysis between normal sciket learn model and the model extended by oneAPI Intel®. There is not huge difference in terms of execution time of the models when the dataset size is low, wheras when tested with large dateset **oneDAL** performed 10x times better.
 
 ### Project 2: Attendance management system using face recognition
@@ -42,13 +44,16 @@ Utilizing a **CNN with oneDNN** for attendance management brings accuracy, real-
 3. **High Efficiency and Speed**: oneDNN is designed to deliver high performance and efficiency in deep learning computations. It leverages Intel's advanced hardware optimizations, such as **Intel Advanced Vector Extensions (AVX)**, to accelerate computations and improve throughput. This results in faster inference times and efficient attendance management.
 
 The model architecture is given below,
-<img width="670" alt="Screenshot 2023-05-17 at 10 55 21 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/160c7b1a-373b-4dfd-b200-60df89d27e28">
+<img width="670" alt="Screenshot 2023-05-17 at 10 55 21 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/aa996086-6378-44cf-8d86-59dc42dacbdd">
+
 
 This model recognizes the face and adds the attendance status of the individual to the excel sheet. A sample output of the model is shown below.
 
-![Output2](https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/3683836b-37ce-41ac-9ee5-3fe30ccf5ac3)
+![Output2](https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/561b5b4d-8755-495c-96b4-70ca05a762dd)
+
 
 further we are currently working on incoprating emotion detection to the project and the architecture diagram of the proposed model under implementation is shared below.
 
-<img width="414" alt="Screenshot 2023-05-17 at 11 03 14 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/72336b88-9cc2-4ca0-bf22-e1b73aaddfe0">
+<img width="414" alt="Screenshot 2023-05-17 at 11 03 14 AM" src="https://github.com/Ragzoid/oneAPI-Intel-/assets/90862154/ee4dde85-619d-48c1-8e73-1fc4e2e26d74">
+
 
